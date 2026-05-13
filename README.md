@@ -1,4 +1,20 @@
-# VMSD Heritage Tourism Project
+# VMSD: Structured Visual Annotation Framework
+
+This repository contains the implementation for the research paper:
+
+**VMSD: A Structured Visual Annotation Framework for Detecting Hidden Operational Dissatisfaction in High-Rated Heritage Tourism Reviews**
+
+## Author
+
+**Hui Zhang**  
+Department of Information Engineering  
+Gingko College of Hospitality Management  
+Chengdu, China  
+
+Email: zh20250906@163.com
+
+
+**VMSD: A Structured Visual Annotation Framework for Detecting Hidden Operational Dissatisfaction in High-Rated Heritage Tourism Reviews**
 
 This repository implements a complete project pipeline for **VMSD: Value–Management Satisfaction Divergence** in heritage-tourism reviews.
 
