@@ -1,0 +1,53 @@
+project:
+  name: "VMSD Heritage Tourism"
+  version: "1.0.0"
+  random_state: 42
+
+dataset:
+  target_total_rows: 2000
+  target_vmsd_positive: 800
+  target_vmsd_negative: 1200
+  high_rating_threshold: 4
+  supported_sites:
+    - "Taj Mahal"
+    - "Red Fort"
+    - "Qutub Minar"
+    - "Hampi"
+    - "Konark Sun Temple"
+
+columns:
+  id: "review_id"
+  site: "heritage_site"
+  city_state: "city_state"
+  rating: "review_rating"
+  text: "review_text"
+  date: "review_date"
+  source: "source"
+  image_present: "image_present"
+  image_url: "image_url"
+  image_description: "image_description"
+  intrinsic_value_positive: "intrinsic_value_positive"
+  text_operational_issue: "text_operational_issue"
+  image_operational_issue: "image_operational_issue"
+  operational_aspect: "operational_aspect"
+  image_evidence_type: "image_evidence_type"
+  contradiction: "text_image_contradiction"
+  vmsd_label: "vmsd_label"
+  vmsd_severity: "vmsd_severity"
+  vmsd_score: "vmsd_score"
+  evidence_text_span: "evidence_text_span"
+  annotator_1_label: "annotator_1_label"
+  annotator_2_label: "annotator_2_label"
+  final_label: "final_label"
+
+scoring:
+  min_keyword_confidence: 0.25
+  manual_flag_confidence: 0.95
+  max_keyword_confidence: 0.90
+  low_severity_threshold: 0.35
+  moderate_severity_threshold: 0.65
+
+outputs:
+  default_prediction_file: "outputs/vmsd_predictions.csv"
+  default_plot_dir: "outputs/plots"
+  default_model_path: "outputs/vmsd_text_classifier.joblib"

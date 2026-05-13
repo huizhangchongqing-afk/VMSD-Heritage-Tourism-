@@ -1,0 +1,225 @@
+intrinsic_value_keywords:
+  - beautiful
+  - breathtaking
+  - amazing
+  - magnificent
+  - historic
+  - history
+  - heritage
+  - architecture
+  - monument
+  - spiritual
+  - cultural
+  - unesco
+  - iconic
+  - masterpiece
+  - memorable
+  - worth visiting
+  - must visit
+  - stunning
+  - ancient
+  - temple
+  - fort
+  - palace
+  - sculpture
+  - carvings
+
+operational_management_taxonomy:
+  crowding:
+    group: "access_load"
+    keywords:
+      - crowd
+      - crowded
+      - overcrowded
+      - rush
+      - packed
+      - too many people
+      - heavy footfall
+      - tourist load
+      - congestion
+      - jammed
+
+  queues:
+    group: "access_load"
+    keywords:
+      - queue
+      - queues
+      - waiting
+      - long wait
+      - slow entry
+      - ticket line
+      - entry line
+      - delay
+      - stuck in line
+
+  cleanliness:
+    group: "facility_hygiene"
+    keywords:
+      - dirty
+      - garbage
+      - litter
+      - trash
+      - waste
+      - unclean
+      - smell
+      - dustbin
+      - poor hygiene
+      - badly maintained area
+
+  toilets:
+    group: "facility_hygiene"
+    keywords:
+      - toilet
+      - washroom
+      - restroom
+      - bathroom
+      - no clean toilets
+      - dirty toilets
+      - poor toilet
+      - sanitation
+
+  signage_wayfinding:
+    group: "information_quality"
+    keywords:
+      - signboard
+      - signage
+      - directions
+      - no directions
+      - confusing route
+      - wayfinding
+      - information board
+      - map missing
+      - guide board
+
+  accessibility:
+    group: "access_load"
+    keywords:
+      - wheelchair
+      - accessibility
+      - disabled
+      - elderly
+      - ramp
+      - stairs
+      - difficult to access
+      - not accessible
+      - mobility
+
+  heat_shade_comfort:
+    group: "comfort_services"
+    keywords:
+      - heat
+      - hot weather
+      - no shade
+      - shade missing
+      - humid
+      - tired
+      - exhausting
+      - no shelter
+      - sun exposure
+      - comfort
+
+  pricing_ticketing:
+    group: "comfort_services"
+    keywords:
+      - ticket price
+      - overpriced
+      - costly
+      - expensive
+      - entry fee
+      - payment issue
+      - ticket counter
+      - online ticket
+      - pricing
+
+  staff_behavior:
+    group: "management_service"
+    keywords:
+      - staff
+      - rude staff
+      - guard
+      - security behavior
+      - unhelpful
+      - guide forced
+      - poor management
+      - mismanagement
+      - harassment
+
+  maintenance:
+    group: "management_service"
+    keywords:
+      - maintenance
+      - broken
+      - damaged
+      - repair
+      - renovation
+      - poorly maintained
+      - neglected
+      - paint peeling
+      - worn out
+      - closed section
+
+  safety:
+    group: "management_service"
+    keywords:
+      - safety
+      - unsafe
+      - slippery
+      - risk
+      - theft
+      - pickpocket
+      - security issue
+      - dangerous
+      - accident
+
+  water_food:
+    group: "comfort_services"
+    keywords:
+      - water
+      - drinking water
+      - food
+      - cafeteria
+      - restaurant
+      - no water
+      - overpriced food
+      - refreshment
+      - vending
+
+  seating:
+    group: "comfort_services"
+    keywords:
+      - seating
+      - benches
+      - no seats
+      - sitting area
+      - rest area
+      - place to sit
+      - elderly seating
+
+  interpretation:
+    group: "information_quality"
+    keywords:
+      - guide
+      - audio guide
+      - information
+      - explanation
+      - historical details
+      - poor guide
+      - lack of information
+      - no description
+      - interpretation
+
+image_evidence_keywords:
+  - visible crowd
+  - long queue
+  - dirty floor
+  - garbage visible
+  - damaged wall
+  - broken railing
+  - poor signage
+  - crowded gate
+  - unclean toilet
+  - no shade
+  - litter visible
+  - maintenance issue
+  - waterlogging
+  - closed section
